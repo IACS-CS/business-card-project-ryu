@@ -1,5 +1,24 @@
 .card-1 h1 {
   /* Style for card 1 (your box model example */
-  color: red;
-  margin-left: 1.5in;
+  color: gray;
+  margin-left: 8in;
+  margin-right: 8in;
+  margin-top: 8in;
+  margin-bottom: 8in;
 }
+.card-1 .card-front {
+  background-color: DarkGreen;
+  color: Gold;
+  padding-bottom: 2.1in;
+}
+.card-1 .card-back {
+  background-color: DarkRed;
+  color: Gold;
+  text-align: center;
+  border-left:7px solid gold;
+}
+  .card-1 .card-back img {
+width:1.8in;
+height:1.2in;
+padding-top: .65in;
+  }
