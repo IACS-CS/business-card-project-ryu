@@ -8,17 +8,24 @@
 }
 .card-1 .card-front {
   background-color: DarkGreen;
-  color: Gold;
+  color: golden;
   padding-bottom: 2.1in;
 }
 .card-1 .card-back {
   background-color: DarkRed;
-  color: Gold;
+  color: gold;
   text-align: center;
-  border-left:7px solid gold;
+  border-left:7px solid Gold;
+  border-right: 7px solid gold;
+  border-top: 7px solid gold;
+  border-bottom: 7px solid gold;
+  border-width:20px;
 }
-  .card-1 .card-back img {
-width:1.8in;
-height:1.2in;
-padding-top: .65in;
+.card-1 .card-back img {
+width: 2in;
+height: 1.37in;
+padding-top: .1in;
+padding-right: .5in;
+padding-bottom: .3in;
+
   }
