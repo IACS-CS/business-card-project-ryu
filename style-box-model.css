@@ -13,19 +13,31 @@
 }
 .card-1 .card-back {
   background-color: DarkRed;
-  color: gold;
-  text-align: center;
-  border-left:7px solid Gold;
-  border-right: 7px solid gold;
+  color: goldenrod;
+  border-left:7px solid ;
+  border-right: 7px solid ;
   border-top: 7px solid gold;
   border-bottom: 7px solid gold;
-  border-width:20px;
+  border-width:12px;
 }
 .card-1 .card-back img {
-width: 2in;
-height: 1.37in;
-padding-top: .1in;
-padding-right: .5in;
-padding-bottom: .3in;
-
-  }
+display: block;
+width: 2.1in;
+margin-left: auto;
+margin-right: auto;
+padding-right: 1in;
+padding-bottom:.15in
+}
+.card-1 .card-back p {
+text-align: start;
+font-style: italic;
+font-weight: 800;
+margin: auto;
+margin-left: .1in;
+font-family: Borel;
+}
+.borel-regular {
+  font-family: "Borel", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
