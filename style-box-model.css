@@ -14,30 +14,44 @@
 .card-1 .card-back {
   background-color: DarkRed;
   color: goldenrod;
-  border-left:7px solid ;
-  border-right: 7px solid ;
+  border-left: 7px solid;
+  border-right: 7px solid;
   border-top: 7px solid gold;
   border-bottom: 7px solid gold;
-  border-width:12px;
+  border-width: 12px;
 }
 .card-1 .card-back img {
-display: block;
-width: 2.1in;
-margin-left: auto;
-margin-right: auto;
-padding-right: 1in;
-padding-bottom:.15in
+  display: inline-block;
+  width: 2in;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 122px;
+  margin-bottom: 6px;
 }
+
 .card-1 .card-back p {
-text-align: start;
-font-style: italic;
-font-weight: 800;
-margin: auto;
-margin-left: .1in;
-font-family: Borel;
+  text-align: center;
+  font-style: italic;
+  font-weight: 800;
+  margin: auto;
+  padding-top: 7px;
+  font-family: Borel;
 }
 .borel-regular {
   font-family: "Borel", cursive;
   font-weight: 400;
   font-style: normal;
+}
+.card-1 img {
+  display: inline-block;
+
+}
+.card-info {
+  display: inline-block;
+  text-align: end;
+  font-size: medium;
+  font-style: italic;
+  font-weight: 400;
+ width:15px;
+  margin-left: 10px;
 }
