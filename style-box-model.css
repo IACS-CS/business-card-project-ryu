@@ -22,19 +22,17 @@
 }
 .card-1 .card-back img {
   display: inline-block;
-  width: 2in;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 122px;
-  margin-bottom: 6px;
+  width: 1.9in;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .card-1 .card-back p {
   text-align: center;
-  font-style: italic;
-  font-weight: 800;
+  font-style: Bold Italic;
+  font-weight: 400;
   margin: auto;
-  padding-top: 7px;
+  padding-top: 5px;
   font-family: Borel;
 }
 .borel-regular {
@@ -42,16 +40,13 @@
   font-weight: 400;
   font-style: normal;
 }
-.card-1 img {
-  display: inline-block;
 
-}
 .card-info {
   display: inline-block;
   text-align: end;
-  font-size: medium;
-  font-style: italic;
-  font-weight: 400;
- width:15px;
+  font-size: 13px;
+  font-weight: 600;
+  width: 10px;
   margin-left: 10px;
+  margin-bottom: 39px;
 }
