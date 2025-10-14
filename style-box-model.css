@@ -8,14 +8,17 @@
 }
 .card-1 .card-front {
   background-color: DarkGreen;
-  color: golden;
-  padding-bottom: 2.1in;
+  border-left: 7px solid goldenrod;
+  border-right: 7px solid goldenrod;
+  border-top: 7px solid gold;
+  border-bottom: 7px solid gold;
+  border-width: 12px;
 }
 .card-1 .card-back {
   background-color: DarkRed;
   color: goldenrod;
-  border-left: 7px solid;
-  border-right: 7px solid;
+  border-left: 7px solid goldenrod;
+  border-right: 7px solid goldenrod;
   border-top: 7px solid gold;
   border-bottom: 7px solid gold;
   border-width: 12px;
@@ -26,7 +29,6 @@
   margin-left: 10px;
   margin-right: 10px;
 }
-
 .card-1 .card-back p {
   text-align: center;
   font-style: Bold Italic;
@@ -35,13 +37,14 @@
   padding-top: 5px;
   font-family: Borel;
 }
+
 .borel-regular {
   font-family: "Borel", cursive;
   font-weight: 400;
   font-style: normal;
 }
 
-.card-info {
+.card-back .card-info {
   display: inline-block;
   text-align: end;
   font-size: 13px;
@@ -50,3 +53,33 @@
   margin-left: 10px;
   margin-bottom: 39px;
 }
+.card-1 .card-front p {
+  text-align: end;
+  font-style: Bold Italic;
+  font-weight: 400;
+  color: black;
+  margin: auto;
+  font-family: Borel;
+
+}
+.card-1 .card-front img {
+  display: block;
+  width: 2in;
+  height:1.75in;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+.card-1 .front-info p{
+  text-align: end;
+  color:black;
+  width: 2in;
+  margin-bottom:auto;
+  padding-top: 10px;
+  font-size: 15px;
+}
+.front-info ul {
+  list-style-type:square;
+  padding: auto;
+  margin: auto;
